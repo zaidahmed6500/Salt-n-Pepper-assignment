@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+@font-face {
+    font-family: futurak;
+    src: url(../assets/fonts/futurak.ttf);
+  }
+
+  @font-face {
+    font-family: Apercu;
+    src: url(../assets/fonts/Apercu.otf);
+  }
+
+
+  @font-face {
+    font-family: Butler;
+    src: url(../assets/fonts/Butler.otf);
+  }
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --black: #000000;
+  --red: #ed1c24;
+  --white: #ffffff;
+  --dark-grey: #0f0f0f;
+  
+}
+
+body {
+  background-color: var(--black);
+  color: var(--white);
+  font-family: "Inter", sans-serif;
+}
+
+/* navbar started */
+.logo-image {
+  width: 165px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+}
+.nav-items {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  font-size: 18px;
+}
+
+.nav-items a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+.nav-single-item {
+  cursor: pointer;
+}
+
+.franchise-btn {
+  background-color: transparent;
+  color: var(--white);
+  border: 1px solid var(--white);
+  padding: 15px 20px;
+  border-radius: 25px;
+  font-size: 16px;
+}
+.order-btn {
+  background-color: var(--red);
+  color: var(--white);
+  border: none;
+  padding: 15px 20px;
+  border-radius: 25px;
+  font-size: 16px;
+}
+
+.arrow-icon {
+  color: var(--red);
+}
+
+.arrow-span {
+  padding: 5px 8px;
+  background-color: var(--white);
+  border-radius: 20px;
+}
+.menu-icon{
+    color: var(--white);
+    font-size: 26px;
+}
+
+.menu-container{
+    display: none;
+}
+/* navbar ended */
+
+/* restaurant main section started */
+.restaurant {
+    background-color: var(--black);
+}
+
+.heading {
+    font-family: butler;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+
+.input-section {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.input-section input {
+    width: 600px;
+    height: 48px;
+    border-radius: 8px;
+}
+
+.sub-heading {
+    font-family: apercu;
+    font-size: 18px;
+}
+
+.btn {
+    background-color: #ffca2c;
+    color: #ffffff;
+    border-radius: 30px;
+    font-size: 18px;
+    padding: 14px 43px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    font-family: inter;
+    cursor: pointer;
+}
+
+.btn-align {
+    margin-left: 60px;
+}
+
+/* restaurant main section ended */
+
+
+/* Restaurants footer started */
+.footer {
+  background-color: var(--dark-grey);
+  padding-top: 40px;
+}
+
+.footer-logo {
+  width: 140px;
+  height: 64px;
+}
+
+.brand-container-5 {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 40px;
+}
+
+.footer-headings {
+  font-family: Butler_Black_Stencil;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.footer-sub-headings {
+  font-size: 16px;
+  font-family: Apercu;
+}
+
+.footer-social-logo {
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.social-logo {
+  width: 45px;
+}
+/* Restaurants footer ended */
+
+
+/* Restaurants footer-2 started */
+.footer-2 {
+  background-color: #000000;
+  padding: 20px;
+}
+
+.brand-container-6 {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+/* responsive media query */
+
+@media(max-width: 1000px){
+    .menu-container{
+        display: block;
+    }
+    .nav-items{
+        display: none;
+    }
+    .navbar{
+        justify-content: space-between;
+        padding: 0px 50px;
+    }
+}
