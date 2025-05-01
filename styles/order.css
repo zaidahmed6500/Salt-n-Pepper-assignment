@@ -1,0 +1,368 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+@font-face {
+    font-family: futurak;
+    src: url(../assets/fonts/futurak.ttf);
+  }
+
+  @font-face {
+    font-family: Apercu;
+    src: url(../assets/fonts/Apercu.otf);
+  }
+
+
+  @font-face {
+    font-family: Butler;
+    src: url(../assets/fonts/Butler.otf);
+  }
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --black: #000000;
+  --red: #ed1c24;
+  --white: #ffffff;
+  --dark-grey: #0f0f0f;
+  
+}
+
+body {
+  background-color: var(--black);
+  color: var(--white);
+  font-family: "Inter", sans-serif;
+}
+
+/* navbar started */
+.logo-image {
+  width: 165px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+}
+.nav-items {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  font-size: 18px;
+}
+
+.nav-items a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+.nav-single-item {
+  cursor: pointer;
+}
+
+.franchise-btn {
+  background-color: transparent;
+  color: var(--white);
+  border: 1px solid var(--white);
+  padding: 15px 20px;
+  border-radius: 25px;
+  font-size: 16px;
+}
+.order-btn {
+  background-color: var(--red);
+  color: var(--white);
+  border: none;
+  padding: 15px 20px;
+  border-radius: 25px;
+  font-size: 16px;
+}
+
+.arrow-icon {
+  color: var(--red);
+}
+
+.arrow-span {
+  padding: 5px 8px;
+  background-color: var(--white);
+  border-radius: 20px;
+}
+.menu-icon{
+    color: var(--white);
+    font-size: 26px;
+}
+
+.menu-container{
+    display: none;
+}
+/* navbar ended */
+
+
+
+
+/* Restaurants container started */
+.margin {
+    margin-top: 50px;
+}
+
+.restaurant-heading{
+    text-align: center;
+    font-weight: 300;
+    font-size: 42px;
+    margin-top: 50px;
+}
+
+.restaurant-para{
+    text-align: center;
+    color: #ffffffb3;
+    margin: 10px 0px;
+}
+
+.futurak-font-heading{
+    font-family: futurak;
+    font-size: 55px;
+}
+
+.brand-children{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    
+}
+.order-now-btn{
+    background-color: transparent;
+  color: #ffffffb3;
+  border: 1px solid #ffffffb3;
+  padding: 10px 50px;
+  border-radius: 25px;
+  font-size: 16px;
+}
+
+.brands-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-bottom: 100px;
+}
+/* Restaurants container ended */
+
+
+
+/* Restaurants container-2 started */
+.restaurant-2 {
+  background-color: var(--dark-grey);
+  padding-bottom: 100px;
+}
+
+.restaurant-heading-2 {
+  text-align: center;
+  font-weight: 300;
+  font-size: 42px;
+  margin-top: 50px;
+  padding-top: 50px;
+}
+
+.brands-container-2 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 120px;
+  flex-wrap: wrap;
+}
+
+.city-heading {
+  font-size: 20px;
+  font-family: sans-serif;
+  color: var(--red);
+  
+}
+
+.container-2-font-heading {
+  font-family: futurak;
+  font-size: 35px;
+}
+
+.container-2-restaurant-heading {
+  font-family: Arial;
+  font-size: 30px;
+}
+
+.container-2-plot-heading {
+  font-size: 20px;
+  font-family: Arial;
+}
+
+.get-btn {
+  background-color: transparent;
+  color: var(--white);
+  border: 1px solid var(--white);
+  padding: 15px 20px;
+  border-radius: 25px;
+  font-size: 16px;
+} 
+
+.restaurant-2-items-flex {
+  display: block;
+}
+
+.img-res {
+  width: 536px;
+}
+/* Restaurants container-2 ended */
+
+
+.black-header {
+  padding: 20px;
+  background-color: #000000;
+}
+
+
+/* Restaurants container-3 started */
+
+.brand-image{
+
+    border-radius: 10px;
+    width: 362px;
+    height: 225px;
+}
+
+.brands-container-3 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+.container-3-heading {
+  font-size: 15px;
+  font-family: apercu;
+  color: var(--white);
+ 
+}
+
+.container-3-font-heading {
+  font-family: futurak;
+  font-size: 24px;
+}
+
+.container-3-restaurant-heading {
+  font-family: Arial;
+  font-size: 18px;
+}
+
+.container-3-plot-heading {
+  font-size: 14px;
+  font-family: Arial;
+}
+
+.container-3-get-btn {
+  background-color: transparent;
+  color: var(--white);
+  border: 1px solid var(--white);
+  padding: 15px 20px;
+  border-radius: 25px;
+  font-size: 14px;
+}
+
+.container-3-align {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+/* Restaurants container-3 ended */
+
+
+
+/* Restaurants footer started */
+.footer {
+  background-color: var(--dark-grey);
+  padding-top: 40px;
+}
+
+.footer-logo {
+  width: 140px;
+  height: 64px;
+}
+
+.brand-container-5 {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 40px;
+}
+
+.footer-headings {
+  font-family: Butler_Black_Stencil;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.footer-sub-headings {
+  font-size: 16px;
+  font-family: Apercu;
+}
+
+.footer-social-logo {
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.social-logo {
+  width: 45px;
+}
+/* Restaurants footer ended */
+
+
+/* Restaurants footer-2 started */
+.footer-2 {
+  background-color: #000000;
+  padding: 20px;
+}
+
+.brand-container-6 {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+/* responsive media query */
+
+@media(max-width: 1000px){
+    .menu-container{
+        display: block;
+    }
+    .nav-items{
+        display: none;
+    }
+    .navbar{
+        justify-content: space-between;
+        padding: 0px 50px;
+    }
+}
+
+@media(max-width: 450px){
+    .brand-image{
+
+        border-radius: 8px;
+        width: 262px;
+        height: 125px;
+    }
+}
+
+@media(max-width: 280px){
+    .brand-image{
+
+        border-radius: 8px;
+        width: 162px;
+        height: 85px;
+    }
+}
