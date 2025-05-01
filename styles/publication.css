@@ -100,8 +100,24 @@ body {
 /* navbar ended */
 
 /* restaurant main section started */
+
+.brands-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin: 30px;
+  padding-bottom: 100px;
+}
+
+
+
 .restaurant {
     background-color: var(--black);
+}
+
+.img-res {
+  width: 100%;
 }
 
 .images-align {
@@ -115,8 +131,9 @@ body {
 .images {
     width: 534px;
     height: 507px;
-    flex-wrap: wrap;
+   
 }
+
 
 .images-border {
     border: 1px solid #ffffff;
